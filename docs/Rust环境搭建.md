@@ -8,7 +8,7 @@
 
 - 双击安装，全部回车，默认安装的是`x86_64-pc-windows-msvc`
 
-  ![默认安装](assets/1651890829460.png)
+  ![默认安装](./assets/1651890829460.png)
   
 
 Cargo的安装目录：`C:\Users\lsc_0\.cargo`
@@ -40,7 +40,7 @@ index = "https://rsproxy.cn/crates.io-index"
 [net]
 git-fetch-with-cli = true
 ```
-Cargo中bin目录下可执行文件如图：![rust相关执行文件](assets/1651891816401.png)
+Cargo中bin目录下可执行文件如图：![rust相关执行文件](./assets/1651891816401.png)
 
 执行文件说明：
 ```txt
@@ -89,15 +89,15 @@ C:\Users\lsc_0> rustup default nightly
 
 - 如果验证失败，提示没有此命令，检查系统环境配置，如没有配置，需要根据你电脑中cargo的安装路径进行手动配置，注意一定要配置bin目录
 
-![1651892421917](assets/1651892421917.png)
+![1651892421917](./assets/1651892421917.png)
 
-![1651892444484](assets/1651892444484.png)
+![1651892444484](./assets/1651892444484.png)
 
-![1651892469250](assets/1651892469250.png)
+![1651892469250](./assets/1651892469250.png)
 
-![1651892540674](assets/1651892540674.png)
+![1651892540674](./assets/1651892540674.png)
 
-![1651892629851](assets/1651892629851.png)
+![1651892629851](./assets/1651892629851.png)
 
 ## Linux/MacOS
 
