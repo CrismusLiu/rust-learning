@@ -1,11 +1,19 @@
 use std::fmt;
 
 fn main() {
-    printlnFn();
+    // printlnFn();
     // printFn();
     // formatFn();
     // eprintFn();
     // eprintlnFn();
+
+    {
+        let a = "abc";
+        println!("{:p}", &a);
+    }
+
+    let a = "abc";
+    println!("{:p}", &a);
 }
 
 fn printlnFn() {
