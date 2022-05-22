@@ -3,7 +3,7 @@
 fn main() {
     let condition_val = 10;
 
-    let res = condition_fn(condition_val);
+    let res = condition_fn_enum(condition_val);
     // if let 表达式
     if let Some(data) = res {
         println!("data = {}", data);
@@ -11,16 +11,16 @@ fn main() {
         println!("没有值！");
     }
 
-    let res1 = condition_fn1(1);
+    let res1 = condition_fn_val(1);
     // if let 表达式
-    if let 10 = res1 {
-        println!("匹配成功！");
+    if let -1 = res1 {
+        println!("data={}", res1);
     } else {
         println!("匹配失败！");
     }
 }
 
-fn condition_fn(condition_val: i32) -> Option<i32> {
+fn condition_fn_enum(condition_val: i32) -> Option<i32> {
     // if 表达式
     if condition_val == 10 {
         Some(condition_val)
@@ -29,7 +29,7 @@ fn condition_fn(condition_val: i32) -> Option<i32> {
     }
 }
 
-fn condition_fn1(condition_val: i32) -> i32 {
+fn condition_fn_val(condition_val: i32) -> i32 {
     // if 表达式
     if condition_val == 10 {
         condition_val

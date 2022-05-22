@@ -2,6 +2,18 @@
 
 fn main() {
     // 1、loop：无限循环，可通过break退出循环，并给外部一个返回值。
+
+    let mut a = 0;
+    loop {
+        a += 1;
+        print!("{}", a);
+        if a == 20 {
+            break;
+        }
+    }
+
+    println!();
+
     let mut num = 0;
     let res = loop {
         num += 1;
