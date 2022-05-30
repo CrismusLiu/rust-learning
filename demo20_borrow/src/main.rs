@@ -80,7 +80,7 @@ fn common_type() {
     let mut var = 0_i32;
     println!("var地址：{}", format!("{:p}", &var));
     {
-        let p1 = &mut var; // p1 指针本身不能被重新绑定,我们可以通过p1改变变量var的值
+        let p1 = &mut var; // p1 指针本身不能被重新绑定,我们可以通过*p1改变变量var的值
         *p1 = 1;
         println!("{}", var);
     }
